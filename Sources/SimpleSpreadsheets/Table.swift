@@ -76,7 +76,7 @@ public extension Table {
                 case .empty:
                     return ""
                 case .text(var text):
-                    if text.contains("\"") {
+                    if text.contains("\"") || text.contains(",") {
                         text = text.replacingOccurrences(of: "\"", with: "\"\"")
                         return "\"\(text)\""
                     } else {

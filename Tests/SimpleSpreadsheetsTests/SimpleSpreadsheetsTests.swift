@@ -6,8 +6,8 @@
             
             let table = Table([
                 Table.Row([
-                    .text("First Cell"),
-                    .text("Second Cell"),
+                    .text("First Cell, 1"),
+                    .text("Second Cell, 2"),
                     .integer(123),
                     .double(123.456),
                 ]),
@@ -31,7 +31,7 @@
                     .double(123456.789)
                 ]),
                 Table.Row([
-                    .text("Decimal"),
+                    .text("Decimal, 123456"),
                     .decimal(123456)
                 ]),
                 Table.Row([
